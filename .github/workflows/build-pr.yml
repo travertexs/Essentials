@@ -1,15 +1,6 @@
 name: Build Pull Request
 
-on:
-  push:
-    branches:
-    - mc/* # MC version updates
-    - pr/* # PR rebases
-  pull_request:
-    branches:
-    - 2.x
-    - mc/*
-    - dev/*
+on: [push, pull_request]
 
 jobs:
   build:
