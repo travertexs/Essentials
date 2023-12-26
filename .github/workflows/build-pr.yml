@@ -5,6 +5,7 @@ on:
     branches:
     - mc/* # MC version updates
     - pr/* # PR rebases
+    - dev/*
   pull_request:
     branches:
     - 2.x
